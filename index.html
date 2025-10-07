@@ -155,44 +155,70 @@
         </div>
     </section>
 
-    <!-- Certifications & Achievements Section -->
+
+<!-- Certifications & Achievements Section -->
 <section id="certifications" class="visible">
-    <div class="container">
-        <h2>Certifications & Achievements</h2>
-        <div class="certs-grid">
-            <div class="cert-card">
-                <div class="cert-icon">🏅</div>
-                <div>
-                    <h3>Introduction to Cybersecurity</h3>
-                    <p>CISCO Academy, 2024</p>
-                </div>
-            </div>
-            <div class="cert-card">
-                <div class="cert-icon">🏅</div>
-                <div>
-                    <h3>Network Defense</h3>
-                    <p>CISCO Academy, 2024</p>
-                </div>
-            </div>
-            <div class="cert-card">
-                <div class="cert-icon">🏆</div>
-                <div>
-                    <h3>Champion, DICT Startup Challenge 9</h3>
-                    <p>DICT R4-A, 2024</p>
-                </div>
-            </div>
-            <div class="cert-card">
-                <div class="cert-icon">🏆</div>
-                <div>
-                    <h3>1st Runner up, Robothon Competition</h3>
-                    <p>ICpEP R4A, 2024</p>
-                </div>
-            </div>
-            <!-- Add more cert-card blocks as needed -->
+  <div class="container">
+    <h2>Certifications & Achievements</h2>
+    <div class="certs-grid">
+      <div class="cert-card" data-img="Cybersecurity.png " data-desc="Completed an in-depth training on cybersecurity fundamentals through CISCO Networking Academy, focusing on essential concepts of information security, network protection, and threat mitigation. The program covered topics such as cyber threat analysis, online safety, cryptography basics, and risk management strategies, emphasizing both technical and ethical aspects of cybersecurity.">
+        <div class="cert-icon">🏅</div>
+        <div>
+          <h3>Introduction to Cybersecurity</h3>
+          <p>CISCO Academy, 2024</p>
         </div>
+      </div>
+
+      <div class="cert-card" data-img="NetworkDefense.png" data-desc="Focused on the principles of securing network infrastructures and implementing defense strategies to protect systems from cyber threats. The training explored network vulnerabilities, intrusion detection and prevention systems (IDS/IPS), firewalls, and endpoint security techniques used in modern cybersecurity operations.">
+        <div class="cert-icon">🏅</div>
+        <div>
+          <h3>Network Defense</h3>
+          <p>CISCO Academy, 2024</p>
+        </div>
+      </div>
+
+      <div class="cert-card" data-img="DataFundamentals.png" data-desc="Gained foundational knowledge in data management, analysis, and visualization. Learned key concepts in data ecosystems, SQL databases, and data cleaning techniques for data-driven decision-making.">
+        <div class="cert-icon">🏅</div>
+        <div>
+          <h3>Data Fundamentals</h3>
+          <p>IBM, 2025</p>
+        </div>
+      </div>
+      
+      <div class="cert-card" data-img="DICT.png" data-desc="Led a 3-member team in developing “COCO,” a digital platform that streamlines coconut transactions among farmers, dealers, and millers, featuring a price forecasting model for copra. Recognized for innovation and social impact in agricultural technology.">
+        <div class="cert-icon">🏆</div>
+        <div>
+          <h3>1st Runner up, DICT Startup Challenge 9</h3>
+          <p>DICT R4-A, 2024</p>
+        </div>
+      </div>
+
+      <div class="cert-card" data-img="ICPEP.png" data-desc="Collaborated with a team that designed an automated kiosk system to streamline transactions between farmers, dealers, and millers in the coconut industry. The project emphasized sustainable innovation aligned with the UN Sustainable Development Goals (SDGs), particularly Gender Equality, by demonstrating that farming and copra production are inclusive fields where both men and women can participate equally.">
+        <div class="cert-icon">🏆</div>
+        <div>
+          <h3>Champion, Robothon Competition</h3>
+          <p>ICpEP R4A, 2024</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
+<!-- Popup Modal -->
+<div id="achievementModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img id="modalImg" src="" alt="Achievement Image">
+      </div>
+      <div class="modal-right">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+</div>
 
  <!-- About Section -->
     <section id="about" class="visible">
@@ -203,7 +229,7 @@
                 <div class="title">Computer Engineer</div>
                 <p>Fresh Computer Engineering graduate passionate about data, development, and problem-solving. Always eager to learn and build meaningful solutions.</p>
                 <ul class="about-facts">
-                    <li>3 Certifications</li>
+                    <li>4 years DOST Scholar</li>
                     <li>Strong foundation in Computer Engineering concepts</li>
                     <li>Eager to learn, grow, and contribute to innovative projects</li>
                 </ul>
